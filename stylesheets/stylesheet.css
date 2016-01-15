@@ -34,6 +34,18 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+.colored .btn {
+    color: rgba(96,108,113, 0.7);
+    background-color: rgba(96,108,113, 0.08);
+    border-color: rgba(96,108,113, 0.2);
+}
+
+.colored .btn:hover {
+    color: rgba(96,108,113, 0.8);
+    text-decoration: none;
+    background-color: rgba(96,108,113, 0.2);
+    border-color: rgba(96,108,113, 0.3); }
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
@@ -56,8 +68,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #E1563F;
+  background-image: linear-gradient(120deg, #E1563F, #AA412F); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -112,7 +124,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #F23818; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
